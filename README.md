@@ -70,6 +70,38 @@ Technologies Used
 
 - Git and GitHub
 
+## How to Run
+
+### 1. Install Python
+
+Download and install Python 3 from the official Python website.
+
+### 2. Download the Project
+
+Clone the GitHub repository:
+
+git clone https://github.com/SaankhyaTare/patient-clinical-record-system.git
+
+Open the project folder:
+
+cd patient-clinical-record-system
+
+### 3. Run the Project
+
+Run the following command:
+
+python main.py
+
+The program will open in the terminal and display the main menu.
+
+### 4. Run Tests
+
+To run the automated tests:
+
+python -m unittest discover -s tests -p "test_*.py"
+
+No additional Python packages are required because the project uses Python standard-library modules.
+
 Project Structure
 
 Vithyarthi project/
